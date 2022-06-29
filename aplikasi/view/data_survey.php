@@ -107,16 +107,40 @@ include "../control/koneksi.php";
             </div>
         </div>
     </div>
+
+    <!-- Content Row -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Keterangan Kategori</h6>
+        </div>
+        <div class="card-body">
+            <p>
+                1. Sangat Suka = 5
+                <br>
+                2. Suka = 4
+                <br>
+                3. Biasa = 3
+                <br>
+                4. Tidak Suka = 2
+                <br>
+                5. Sangat Tidak Suka = 1
+            </p>
+        </div>
+    </div>
 </div>
+
 <!-- /.container-fluid -->
-
+</div>
 <!-- End of Main Content -->
-
-
-
 <!-- Footer -->
-<?php include "./template/footer.php"; ?>
+<?php include "../view/template/footer.php"; ?>
 <!-- End of Footer -->
+
+</div>
+<!-- End of Content Wrapper -->
+
+</div>
+<!-- End of Page Wrapper -->
 
 <!-- Scroll to Top Button-->
 <a class="scroll-to-top rounded" href="#page-top">
@@ -126,7 +150,6 @@ include "../control/koneksi.php";
 <!-- Logout Modal-->
 <?php include "../view/logout-modal.php"; ?>
 <!-- End Logout Modal-->
-
 
 <!-- Bootstrap core JavaScript-->
 <script src="../../asset/vendor/jquery/jquery.min.js"></script>

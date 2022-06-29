@@ -117,7 +117,7 @@ include "../control/koneksi.php";
             <h6>Definisi Singkat tentang Fuzzy C-means</h6>
             Fuzzy C-Means clustering merupakan suatu metode clustering yang hampir mirip seperti k-means clustering.
             Karena metode clustering ini mirip dengan k-means clustering, ada yang menyebut metode ini fuzzy k-means clustering.
-            Fuzzy c-means merupakan salah satu jenis soft clustering di mana dalam mengelompokan suatu data, setiap data bisa dimiliki lebih dari satu cluster
+            Fuzzy c-means merupakan salah satu jenis soft clustering di mana dalam mengelompokan suatu data, setiap data bisa dimiliki lebih dari satu cluster.
             </p>
         </div>
     </div>

@@ -31,66 +31,52 @@
              <h6 class="m-0 font-weight-bold text-primary">Proses hitung</h6>
            </div>
            <div class="card-body">
-             <!-- <form action="data_survey.php" method="POST" class="user" aria-describedby="emailHelp">
+             <form action="" method="POST" class="user" aria-describedby="emailHelp">
                <div class="mb-3">
-                 <label for="ID" class="form-label">ID</label>
-                 <input type="text" class="form-control" id="ID" aria-describedby="emailHelp">
+                 <label for="jumlahcluster" class="form-label">Jumlah Cluster </label>
+                 <input type="number" class="form-control" id="jumlahcluster" aria-describedby="emailHelp">
                </div>
                <div class="mb-3">
-                 <label for="X1" class="form-label">X1</label>
-                 <input type="number" class="form-control" id="X1">
+                 <label for="maksimumiterasi" class="form-label">Maksimum Iterasi</label>
+                 <input type="number" class="form-control" id="maksimumiterasi">
                </div>
                <div class="mb-3">
-                 <label for="X2" class="form-label">X2</label>
-                 <input type="number" class="form-control" id="X2">
+                 <label for="pembobot" class="form-label">Pembobot</label>
+                 <input type="number" class="form-control" id="pembobot">
                </div>
                <div class="mb-3">
                  <label for="X3" class="form-label">X3</label>
                  <input type="number" class="form-control" id="X1">
                </div>
-               <div class="mb-3">
-                 <label for="X4" class="form-label">X4</label>
-                 <input type="number" class="form-control" id="X4">
-               </div>
-               <div class="mb-3">
-                 <label for="X5" class="form-label">X5</label>
-                 <input type="number" class="form-control" id="X5">
-               </div>
-               <div class="mb-3">
-                 <label for="X6" class="form-label">X6</label>
-                 <input type="number" class="form-control" id="X6">
-               </div>
-               <div class="mb-3">
-                 <label for="X7" class="form-label">X7</label>
-                 <input type="number" class="form-control" id="X7">
-               </div>
-               <div class="mb-3">
-                 <label for="X8" class="form-label">X8</label>
-                 <input type="number" class="form-control" id="X8">
-               </div>
-               <div class="mb-3">
-                 <label for="X9" class="form-label">X9</label>
-                 <input type="number" class="form-control" id="X9">
-               </div>
-               <div class="mb-3">
-                 <label for="X10" class="form-label">X10</label>
-                 <input type="number" class="form-control" id="X10">
-               </div>
-               <div class="mb-3">
-                 <label for="X11" class="form-label">X11</label>
-                 <input type="number" class="form-control" id="X11">
-               </div>
-               <div class="mb-3">
-                 <label for="X12" class="form-label">X12</label>
-                 <input type="number" class="form-control" id="X12">
-               </div>
-               <button type="submit" name="submit" class="btn btn-primary">Tambah Data+</button>
-             </form> -->
+               <button type="submit" name="submit" class="btn btn-primary">Proses</button>
+             </form>
            </div>
          </div>
        </div>
      </div>
    </div>
+
+   <!-- /.container-fluid -->
+   </div>
+   <!-- End of Main Content -->
+   <!-- Footer -->
+   <?php include "../view/template/footer.php"; ?>
+   <!-- End of Footer -->
+
+   </div>
+   <!-- End of Content Wrapper -->
+
+   </div>
+   <!-- End of Page Wrapper -->
+
+   <!-- Scroll to Top Button-->
+   <a class="scroll-to-top rounded" href="#page-top">
+     <i class="fas fa-angle-up"></i>
+   </a>
+
+   <!-- Logout Modal-->
+   <?php include "../view/logout-modal.php"; ?>
+   <!-- End Logout Modal-->
    <!-- Bootstrap core JavaScript-->
    <script src="../../asset/vendor/jquery/jquery.min.js"></script>
    <script src="../../asset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
