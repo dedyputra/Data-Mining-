@@ -31,7 +31,7 @@ include "../control/koneksi.php";
 <div class="container-fluid">
 
   <!-- Page Heading -->
-  <h1 class="h3 mb-2 text-gray-800">DataTables Kriteria</h1>
+  <h1 class="h3 mb-2 text-gray-800">Data Tabel Kriteria</h1>
 
   <!-- <a href="tambah_data.php"><button type="button" class="btn btn-outline-danger">Tambah Data+</button></a> -->
   <!-- DataTales Example -->

@@ -41,12 +41,12 @@
                  <input type="number" class="form-control" id="maksimumiterasi">
                </div>
                <div class="mb-3">
-                 <label for="pembobot" class="form-label">Pembobot</label>
+                 <label for="pembobot" class="form-label">Nilai Pembobot(Pangkat)</label>
                  <input type="number" class="form-control" id="pembobot">
                </div>
                <div class="mb-3">
-                 <label for="X3" class="form-label">X3</label>
-                 <input type="number" class="form-control" id="X1">
+                 <label for="erorterkecil" class="form-label">Nilai Error Terkecil</label>
+                 <input type="number" class="form-control" id="erorterkecil">
                </div>
                <button type="submit" name="submit" class="btn btn-primary">Proses</button>
              </form>
