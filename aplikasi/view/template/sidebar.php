@@ -47,7 +47,7 @@
   <li class="nav-item">
     <a class="nav-link" href="tabel_hitung.php">
       <i class="fas fa-fw fa-chart-area"></i>
-      <span>Results</span></a>
+      <span>Results Perhitungan</span></a>
   </li>
   <hr class="sidebar-divider d-none d-md-block">
 
