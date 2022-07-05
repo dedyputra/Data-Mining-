@@ -1,4 +1,4 @@
-# Data-Mining-
+# Data-Mining
 Review Data Kampus menggunakan Fuzzy C-Means
 Tugassssssssssssss semangat rek.....
 Cara Manggil aplikasi ini, localhost/datamining/aplikasi/view/login.php
